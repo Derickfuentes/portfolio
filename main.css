@@ -153,8 +153,31 @@ img{
   padding-bottom: 70px;
 }
 
+
 a {
   text-decoration: none;
   font-size: 22px;
   color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-image: url(images/sunset-background.jpg);
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 1;
+}
+
+.item3 {
+  grid-column: 2 / span 1;
 }
