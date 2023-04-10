@@ -1,3 +1,4 @@
 # portfolio
 
-[HomePage](home.html)
+<a href="home.html">Home Page</a>
+
