@@ -72,6 +72,16 @@ h2{
     1px 1px 0 white; 
 }
 
+.heading-five{
+  margin-left:10px;
+    color: black;
+    text-shadow:
+    -1px -1px 0 orange,
+    1px -1px 0 orange,
+    -1px 1px 0 orange,
+    1px 1px 0  orange; 
+}
+
 header{
   position: absolute;
   top: 55%;
@@ -281,7 +291,7 @@ a {
   outline: none;
 }
 
-/* Set a style for the submit/send button */
+
 .form-container .btn {
   background-color: #04AA6D;
   color: white;
@@ -293,12 +303,11 @@ a {
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
 .form-container .cancel {
   background-color: red;
 }
 
-/* Add some hover effects to buttons */
+
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
