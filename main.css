@@ -41,6 +41,27 @@ h2{
     -1px 1px 0 green,
     1px 1px 0 green; 
 }
+
+.heading-two{
+  margin-left:10px;
+    color: black;
+    text-shadow:
+    -1px -1px 0 rgb(225, 0, 255),
+    1px -1px 0 rgb(225, 0, 255),
+    -1px 1px 0 rgb(225, 0, 255),
+    1px 1px 0 rgb(225, 0, 255); 
+}
+
+.heading-three{
+  margin-left:10px;
+    color: black;
+    text-shadow:
+    -1px -1px 0 rgb(10, 225, 233),
+    1px -1px 0 rgb(10, 225, 233),
+    -1px 1px 0 rgb(10, 225, 233),
+    1px 1px 0 rgb(10, 225, 233); 
+}
+
 header{
   position: absolute;
   top: 55%;
@@ -180,4 +201,112 @@ a {
 
 .item3 {
   grid-column: 2 / span 1;
+}
+
+.container-chat {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container-chat::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container-chat {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container-chat.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: black;
+}
+
+.time-left {
+  float: left;
+  color: black;
+}
+
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 900px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.social-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.social-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.social2 {
+  margin-right: 100px;
 }

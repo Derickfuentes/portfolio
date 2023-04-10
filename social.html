@@ -13,7 +13,8 @@
 
   </head>
   <body>
-    <div class="wrapper">
+    
+    <div class="wrapper" style="background-image: url('images/social-background.jpg')">
 
       <ul class="navbar navbar-expand-sm bg-dark navbar-white fixed-top">
         <li class="nav-item">
@@ -30,24 +31,60 @@
   </ul>
 
 
-    <h1>Social</h1>
+    <h1 class="heading-two">Social</h1>
 
     <div class="row">
-      <div class="column">
-        <img src="images/person-icon.png" alt="user icon" style="width:80px; height:100px;">
+      <div class="column" style="border: 5px solid black; margin-left: 12px; background-color: white;">
+        <h2 class="heading-two" style="text-align: center;">Friends</h2>
       </div>
-      <div class="column">
-       
-       
-        
+      <div class="column" style="border: 5px solid black; margin-right: 12px; background-color: white;">
+        <h2 class="heading-two" style="text-align: center;">Chats</h2>
+      </div>
     </div>
+
+    <div class="social-container" style="border: 6px solid black;  background-color: rebeccapurple;">
+      <div class="social1">
+        <img src="images/person-icon.png" style="width: 75px; height: 100px; background-color: white; border-radius: 50%;">
+        <br>
+        <br>
+        <img src="images/person-icon.png" style="width: 75px; height: 100px; background-color: white; border-radius: 50%;">
+        <br>
+        <br>
+        <img src="images/person-icon.png" style="width: 75px; height: 100px; background-color: white; border-radius: 50%;">
+        <br>
+        <br>
+        <img src="images/person-icon.png" style="width: 75px; height: 100px; background-color: white; border-radius: 50%;">
+      </div>
+      <div class="social2">
+        <br>
+        <h2 class="heading-two" style="margin-right: 10px; ">Anthony</h2>
+        <br>
+        <br>
+        <h2 class="heading-two" style="margin-right: 10px;">Taylor</h2>
+        <br>
+        <br>
+        <h2 class="heading-two" style="margin-right: 10px;">Victor</h2>
+        <br>
+        <br>
+        <br>
+        <h2 class="heading-two" style="margin-right: 10px;">Rae</h2>
+      </div>
+      <div class="social3">
+        <form action="/action_page.php" class="form-container">
+        <h1 class="heading-two">Chat with</h1>
+         <img src="/w3images/bandmember.jpg" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%;">
+    <br>
+    <br>
+        <label for="msg"><b>Send a Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
     
-    <img src="images/person-icon.png" alt="user icon" style="width:80px; height:100px;">
-    
-
-
-    <h2>Friends Online</h2>
-
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>  
+  </div>
+  <br>
+    <h2 class="heading-two">Online now</h2>
     <div class="row-icons">
       <div class="column-icons">
         <img src="images/Helmet.png" alt="Helmet group" style="border-radius: 50%;">
@@ -58,9 +95,9 @@
       <div class="column-icons">
         <img src="images/Helmet.png" alt="Helmet group" style="border-radius: 50%">
       </div>
-      </div>
+    </div>
 
-    <h2>Offline Friends</h2>
+    <h2 class="heading-two">Offline</h2>
 
     <div class="row-icons">
       <div class="column-icons">
